@@ -1,15 +1,5 @@
-Automatic ping is a batch file 
-Just imagine to find out all living hosts in our private network run this file on your cmd
-it explore all living hosts
+Live ip finder
 
-----------Description----------
-c:\>automaticping.bat starting_host_number ending_host_number
-c:\>automaticping.bat 200 220
-
-This script send 2 packets each ip address , if ip is living we can see the label "time<1ms" 
-If not living the ping return :Destination not reachable
-
-This script working 3 digits of ip address 192.168.103.* 
-If you want customize your preference change the findstr command string slicing 
-
-Happy Coding!!!
+usage 
+>automaticping.bat start_num end_num
+<img width="614" height="370" alt="livehost" src="https://github.com/user-attachments/assets/a83ce58f-7499-41b9-bec4-2027696fe58c" />
